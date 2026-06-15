@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="신도림 가라오케 찐후기 기반 최고의 시설과 서비스를 제공합니다. 프리미엄 룸, 최신 음향 시스템, 합리적인 가격으로 특별한 시간을 선사합니다. 24시 운영, 예약 필수.">
+    <meta name="keywords" content="신도림 가라오케, 신도림가라오케, 신도림 가라오케 찐후기, 신도림 가라오케 추천, 신도림 노래방, 신도림 코인노래방, 신도림 가라오케 가격, 신도림 가라오케 예약">
+    <meta name="author" content="신도림 가라오케">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <meta name="format-detection" content="telephone=yes">
+    <meta name="bpaas-design-system" content="organic-stripe">
+    <meta name="bpaas-design-theme" content="kr-organic-stripe">
+    <meta property="og:title" content="신도림 가라오케 찐후기 | 정보">
+    <meta property="og:description" content="신도림 가라오케 찐후기 기반 상세 정보와 지역 시그널을 제공합니다. 프리미엄 시설, 최신 음향, 합리적인 가격.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.example.com/info">
+    <meta property="og:image" content="https://www.example.com/images/og-image.jpg">
+    <meta property="og:locale" content="ko_KR">
+    <meta property="og:site_name" content="신도림 가라오케">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="신도림 가라오케 찐후기 | 정보">
+    <meta name="twitter:description" content="신도림 가라오케 찐후기 기반 상세 정보와 지역 시그널을 제공합니다.">
+    <meta name="twitter:image" content="https://www.example.com/images/twitter-image.jpg">
+    <title>신도림 가라오케 찐후기 | 정보</title>
+    <style>
+        /* CSS Reset */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* Root Variables */
+        :root {
+            --primary: #1a1a2e;
+            --secondary: #16213e;
+            --accent: #e94560;
+            --accent-hover: #c73a52;
+            --bg-light: #f8f9fa;
+            --bg-dark: #0f3460;
+            --text-primary: #2c3e50;
+            --text-secondary: #6c757d;
+            --text-light: #ffffff;
+            --border-color: #e0e0e0;
+            --shadow: 0 4px 20px rgba(0,0,0,0.1);
+            --radius: 12px;
+            --transition: all 0.3s ease;
+            --font-primary: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            --max-width: 1200px;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: var(--font-primary);
+            background-color: var(--bg-light);
+            color: var(--text-primary);
+            line-height: 1.8;
+            -webkit-font-smoothing: antialiased;
+        }
+        /* Container */
+        .container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        /* Typography */
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: 700;
+            line-height: 1.3;
+            margin-bottom: 0.5em;
+        }
+        h1 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            color: var(--primary);
+        }
+        h2 {
+            font-size: clamp(1.5rem, 4vw, 2.5rem);
+            color: var(--primary);
+            border-bottom: 3px solid var(--accent);
+            display: inline-block;
+            padding-bottom: 0.3em;
+            margin-bottom: 1em;
+        }
+        h3 {
+            font-size: clamp(1.2rem, 3vw, 1.8rem);
+            color: var(--secondary);
+        }
+        h4 {
+            font-size: clamp(1rem, 2.5vw, 1.4rem);
+            color: var(--text-primary);
+        }
+        p {
+            margin-bottom: 1.2em;
+        }
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        a:hover {
+            color: var(--accent-hover);
+            text-decoration: underline;
+        }
+        /* Header & Navigation */
+        .site-header {
+            background: linear-gradient(135deg, var(--primary), var(--bg-dark));
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .logo a {
+            color: var(--text-light);
+            font-size: 1.5rem;
+            font-weight: 800;
+            text-decoration: none;
+            letter-spacing: 2px;
+        }
+        .logo a:hover {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+        .nav-links li a {
+            color: var(--text-light);
+            font-weight: 500;
+            font-size: 0.95rem;
+            padding: 0.5rem 0;
+            position: relative;
+            transition: var(--transition);
+        }
+        .nav-links li a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--accent);
+            transition: var(--transition);
+        }
+        .nav-links li a:hover::after {
+            width: 100%;
+        }
+        .nav-links li a:hover {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            padding: 5px;
+        }
+        .hamburger span {
+            width: 25px;
+            height: 3px;
+            background: var(--text-light);
+            margin: 3px 0;
+            transition: var(--transition);
+            border-radius: 2px;
+        }
+        .tel-link {
+            color: var(--text-light);
+            font-weight: 700;
+            font-size: 1.1rem;
+            padding: 0.5rem 1rem;
+            border: 2px solid var(--accent);
+            border-radius: 25px;
+            transition: var(--transition);
+        }
+        .tel-link:hover {
+            background: var(--accent);
+            color: var(--text-light);
+            text-decoration: none;
+        }
+        /* responsive-768 */
+        @media (max-width: 768px) {
+            .hamburger {
+                display: flex;
+            }
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--primary);
+                padding: 1rem;
+                gap: 1rem;
+                text-align: center;
+            }
+            .nav-links.active {
+                display: flex;
+            }
+            .nav-links li a {
+                font-size: 1.1rem;
+            }
+            .nav-container {
+                position: relative;
+            }
+        }
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--bg-dark) 100%);
+            color: var(--text-light);
+            padding: 6rem 0 4rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(233,69,96,0.1) 0%, transparent 70%);
+            animation: pulse 8s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+        .hero h1 {
+            color: var(--text-light);
+            margin-bottom: 0.5em;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto;
+            opacity: 0.9;
+        }
+        /* Sections */
+        .section {
+            padding: 4rem 0;
+        }
+        .section-alt {
+            background: var(--text-light);
+        }
+        .section-dark {
+            background: var(--primary);
+            color: var(--text-light);
+        }
+        .section-dark h2,
+        .section-dark h3 {
+            color: var(--text-light);
+        }
+        /* Cards */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .card {
+            background: var(--text-light);
+            border-radius: var(--radius);
+            padding: 2rem;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            border: 1px solid var(--border-color);
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+        }
+        .card h3 {
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+        .card p {
+            color: var(--text-secondary);
+        }
+        .card-dark {
+            background: var(--secondary);
+            color: var(--text-light);
+        }
+        .card-dark h3 {
+            color: var(--text-light);
+        }
+        .card-dark p {
+            color: rgba(255,255,255,0.8);
+        }
+        /* Info Grid */
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .info-item {
+            background: var(--bg-light);
+            padding: 1.5rem;
+            border-radius: var(--radius);
+            border-left: 4px solid var(--accent);
+        }
+        .info-item h4 {
+            color: var(--accent);
+            margin-bottom: 0.5rem;
+        }
+        .info-item p {
+            color: var(--text-secondary);
+            margin-bottom: 0;
+        }
+        /* Data Table */
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+            background: var(--text-light);
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+        }
+        .data-table th {
+            background: var(--primary);
+            color: var(--text-light);
+            padding: 1rem;
+            text-align: left;
+            font-weight: 600;
+        }
+        .data-table td {
+            padding: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .data-table tr:last-child td {
+            border-bottom: none;
+        }
+        .data-table tr:hover td {
+            background: var(--bg-light);
+        }
+        /* FAQ */
+        .faq-list {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .faq-item {
+            background: var(--text-light);
+            border-radius: var(--radius);
+            margin-bottom: 1rem;
+            box-shadow: var(--shadow);
+            overflow: hidden;
+        }
+        .faq-question {
+            padding: 1.5rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+            color: var(--primary);
+            transition: var(--transition);
+        }
+        .faq-question:hover {
+            background: var(--bg-light);
+        }
+        .faq-question::after {
+            content: '+';
+            font-size: 1.5rem;
+            color: var(--accent);
+            transition: var(--transition);
+        }
+        .faq-question.active::after {
+            content: '-';
+        }
+        .faq-answer {
+            padding: 0 1.5rem 1.5rem;
+            color: var(--text-secondary);
+            display: none;
+        }
+        .faq-answer.active {
+            display: block;
+        }
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+        }
+        .btn-primary {
+            background: var(--accent);
+            color: var(--text-light);
+        }
+        .btn-primary:hover {
+            background: var(--accent-hover);
+            transform: translateY(-2px);
+            text-decoration: none;
+        }
+        .btn-outline {
+            background: transparent;
+            border: 2px solid var(--accent);
+            color: var(--accent);
+        }
+        .btn-outline:hover {
+            background: var(--accent);
+            color: var(--text-light);
+            text-decoration: none;
+        }
+        /* Footer */
+        .site-footer {
+            background: var(--primary);
+            color: var(--text-light);
+            padding: 3rem 0;
+            text-align: center;
+        }
+        .site-footer p {
+            opacity: 0.8;
+            margin-bottom: 0;
+        }
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 1rem;
+        }
+        .footer-links a {
+            color: var(--text-light);
+            opacity: 0.8;
+        }
+        .footer-links a:hover {
+            opacity: 1;
+            color: var(--accent);
+        }
+        /* Utility */
+        .text-center {
+            text-align: center;
+        }
+        .mt-2 {
+            margin-top: 2rem;
+        }
+        .mb-2 {
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="/">신도림 가라오케</a>
+            </div>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="/">홈</a></li>
+                    <li><a href="/info">정보</a></li>
+                    <li><a href="/services">서비스</a></li>
+                    <li><a href="/pricing">가격</a></li>
+                    <li><a href="/review">찐후기</a></li>
+                    <li><a href="/contact">예약</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <a href="tel:02-1234-5678" class="tel-link">02-1234-5678</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>신도림 가라오케 찐후기 기반 정보</h1>
+            <p>데이터로 증명된 신도림 최고의 가라오케 시설과 서비스. 2024년 고객 만족도 98.7% 달성.</p>
+        </div>
+    </section>
+
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="text-center">신도림 가라오케 상세 정보</h2>
+            <p class="text-center" style="max-width: 800px; margin: 0 auto 2rem;">신도림 가라오케 찐후기 1,247건을 분석한 결과, 당사는 신도림 지역 내 가라오케 중 최고 시설과 서비스를 제공함이 입증되었습니다. 아래 정보는 공식 데이터와 고객 피드백을 기반으로 합니다.</p>
+            
+            <div class="info-grid">
+                <div class="info-item">
+                    <h4>📍 위치</h4>
+                    <p>서울특별시 구로구 신도림동 123-45<br>신도림역 3번 출구 도보 3분</p>
+                </div>
+                <div class="info-item">
+                    <h4>⏰ 운영 시간</h4>
+                    <p>24시간 연중무휴<br>마지막 입장: 새벽 5시</p>
+                </div>
+                <div class="info-item">
+                    <h4
+</body>
+</html>
