@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img">
-  <metadata>BPaaS site identity 1d4d8909ae0e9d73</metadata>
-  <rect width="64" height="64" rx="15" fill="hsl(301 57% 30%)"/>
-  <path d="M29 0h35v64H15Z" fill="hsl(126 69% 67%)" opacity="0.82"/>
-  <g transform="rotate(105 32 32)" opacity="0.42"><path d="M13 45c7-23 31-23 38 0" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/></g>
-  <text x="32" y="39" text-anchor="middle" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" letter-spacing="0">SS</text>
+  <title>신도림 가라오케 찐후기</title>
+  <rect width="64" height="64" rx="13" fill="hsl(301 51% 34%)"/>
+  <path d="M64 0v26L38 0Z" fill="hsl(3 68% 59%)" opacity="0.16"/>
+  <g transform="rotate(90 32 32)"><circle cx="32" cy="32" r="17" fill="none" stroke="hsl(301 24% 96%)" stroke-width="8"/><circle cx="32" cy="32" r="7" fill="hsl(3 68% 59%)"/></g>
 </svg>
